@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI ilə CV Hazırlama: Canva Bələdçisi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #020617;
+            display: grid;
+            gap: 40px;
+            grid-template-columns: 1fr;
+            margin: 0;
+            padding: 40px 0;
+            place-items: center;
+            font-family: 'Inter', sans-serif;
+            color: #f8fafc;
+        }
+
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #0a192f;
+            display: flex;
+            flex-direction: column;
+            padding: 60px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(100, 255, 218, 0.1);
+        }
+
+        .slide-container::before {
+            content: '';
+            position: absolute;
+            top: -10%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(100, 255, 218, 0.07) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        h1, h2, h3 { font-family: 'Urbanist', sans-serif; color: #ffffff; margin: 0; z-index: 1; }
+        .slide-title { font-size: 52px; font-weight: 700; margin-bottom: 40px; color: #64ffda; text-transform: uppercase; }
+        p, li { font-size: 20px; line-height: 1.5; color: #8892b0; z-index: 1; position: relative; }
+        .highlight { color: #64ffda; font-weight: 600; }
+
+        .content-area { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; z-index: 1; }
+        .title-layout { text-align: center; }
+        .title-layout h1 { font-size: 80px; line-height: 1.1; margin-bottom: 20px; }
+        .title-layout .subtitle { font-size: 26px; color: #64ffda; letter-spacing: 5px; text-transform: uppercase; }
+
+        .section-title-layout { text-align: center; justify-content: center; display: flex; flex-direction: column; height: 100%;}
+        .section-title-layout h2 { font-size: 72px; margin-bottom: 10px; }
+        .section-title-layout hr { width: 100px; height: 4px; background: #64ffda; border: none; margin: 20px auto; }
+
+        .tiled-content { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .tile { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(100, 255, 218, 0.1); padding: 40px; border-radius: 12px; }
+        .tile h3 { font-size: 26px; margin-bottom: 15px; color: #ccd6f6; }
+
+        .bullet-list { list-style: none; padding: 0; }
+        .bullet-list li { margin-bottom: 25px; padding-left: 30px; position: relative; }
+        .bullet-list li::before { content: '→'; position: absolute; left: 0; color: #64ffda; font-weight: bold; }
+        
+        .numbers-layout { display: flex; justify-content: space-around; align-items: center; text-align: center; }
+        .numbers-layout .num { font-size: 120px; font-weight: 700; color: #64ffda; }
+        
+        .quote-layout blockquote { font-size: 44px; font-style: italic; color: #ccd6f6; text-align: center; max-width: 900px; margin: 0 auto; }
+        
+        .timeline { display: flex; justify-content: space-between; margin-top: 50px; text-align: center;}
+        .timeline-item { width: 22%; border-top: 2px solid #64ffda; padding-top: 20px;}
+        .timeline-item h3 { color: #64ffda; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="slide-container">
+    <div class="content-area title-layout">
+        <p class="subtitle">CANVA MAGIC STUDİO</p>
+        <h1>AI İLƏ CV<br>HAZIRLAMA BƏLƏDÇİSİ</h1>
+        <p>Süni intellekt və "Prompt" sənəti ilə karyeranıza rəng qatın</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <div class="content-area section-title-layout">
+        <hr>
+        <h2>CANVA-DA AI DÖVRÜ</h2>
+        <p>Mürəkkəb dizayn prosesini sadə əmrlərə çeviririk</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">MAGIC DESIGN NƏDİR?</h2>
+    <div class="content-area tiled-content">
+        <div class="tile">
+            <h3>Sürətli Dizayn</h3>
+            <p>Sadəcə məqsədinizi yazın, AI sizin üçün onlarla fərqli CV şablonu yaratsın.</p>
+        </div>
+        <div class="tile">
+            <h3>Magic Write</h3>
+            <p>İş təcrübənizi peşəkar korporativ dilə çevirən mətni redaktə vasitəsi.</p>
+        </div>
+        <div class="tile">
+            <h3>Brending</h3>
+            <p>Seçdiyiniz dizaynı bir kliklə şəxsi rənglərinizə və brendinizə uyğunlaşdırın.</p>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">DÜZGÜN "PROMPT" YAZMAQ</h2>
+    <div class="content-area">
+        <p class="highlight">Ən təsirli əmr nümunələri:</p>
+        <ul class="bullet-list">
+            <li>"Modern resume for a Senior Marketing Specialist with dark blue theme."</li>
+            <li>"Minimalist CV layout for a Graphic Designer with a focus on portfolio."</li>
+            <li>"Professional corporate resume for an IT Manager."</li>
+        </ul>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">POPULYAR STİL SEÇİMLƏRİ</h2>
+    <div class="content-area">
+        <p>AI sizin üçün bu üslubları anında yarada bilər:</p>
+        <ul class="bullet-list">
+            <li><span class="highlight">Minimalist:</span> Təmiz, ağ boşluqlu dizaynlar.</li>
+            <li><span class="highlight">Modern:</span> Neon aksetnlər və tünd fonlar.</li>
+            <li><span class="highlight">Yaradıcı:</span> Rəngli və asimmetrik elementlər.</li>
+        </ul>
+        <p style="margin-top: 30px; font-size: 16px;">Nümunə Profil: HANNAH CLARKE, MARKET DEVELOPMENT MANAGER</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">AI-NIN ÜSTÜNLÜKLƏRİ</h2>
+    <div class="content-area numbers-layout">
+        <div>
+            <div class="num">70%</div>
+            <p>Daha Sürətli Hazırlanma</p>
+        </div>
+        <div>
+            <div class="num">100+</div>
+            <p>AI Şablon Seçimi</p>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">ADDIM-ADDIM TƏLİMAT</h2>
+    <div class="content-area">
+        <ul class="bullet-list">
+            <li>1. Canva-da axtarış: "CV Templates" yazın və "Magic Design" düyməsini sıxın.</li>
+            <li>2. Prompt yazın: İstədiyiniz vəzifəni və stili ingiliscə qeyd edin.</li>
+            <li>3. Məlumatları daxil edin: Magic Write ilə təcrübənizi peşəkarlaşdırın.</li>
+            <li>4. Eksport: PDF formatında yadda saxlayaraq göndərməyə hazır olun.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">ZAMAN QƏNAƏTİ: AI VS ƏLLƏ</h2>
+    <div class="content-area">
+        <ul class="bullet-list" style="font-size: 28px;">
+            <li>Əllə Dizayn: <span class="highlight">120 dəq</span></li>
+            <li>Template Seçimi: <span class="highlight">45 dəq</span></li>
+            <li>Canva AI Magic Design: <span class="highlight">5 dəq</span></li>
+        </ul>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">RƏQƏMSAL CV TRENDLƏRİ</h2>
+    <div class="content-area title-layout">
+        <h3 style="font-size: 40px; color: #64ffda; margin-bottom: 20px;">AI Adaptasiyası Artır</h3>
+        <p>2024-2025 illəri arasında AI ilə hazırlanan CV-lərin sayı kəskin artıb.</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <div class="content-area quote-layout">
+        <blockquote>"Dizayn yalnız nəyəsə bənzəmək deyil, o, həm də işləmək formasıdır. Doğru bir CV qapıları açan açardır."</blockquote>
+        <p style="text-align: right; color: #64ffda; margin-top: 20px;">— Steve Jobs (Adapted for Career)</p>
+    </div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">KARYERA YOLUNUZ</h2>
+    <div class="content-area timeline">
+        <div class="timeline-item">
+            <h3>Dizayn</h3>
+            <p>AI ilə mükəmməl CV yaradın</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Optimizasiya</h3>
+            <p>ATS dostu sözlər əlavə edin</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Müraciət</h3>
+            <p>Doğru şirkətlərə göndərin</p>
+        </div>
+        <div class="timeline-item">
+            <h3>Uğur</h3>
+            <p>Arzuladığınız işi qazanın</p>
+        </div>
+    </div>
+</div>
+
+<div class="slide-container">
+    <div class="content-area title-layout">
+        <h2 style="font-size: 60px; color: #64ffda; margin-bottom: 30px;">SUALLARINIZ VAR?</h2>
+        <p style="font-size: 30px;">Canva AI ilə gələcəyini bu gün dizayn et!</p>
+        <p style="font-size: 24px; margin-top: 20px;">www.canva.com/magic-studio</p>
+        <p style="font-size: 14px; margin-top: 50px; opacity: 0.5;">Image Sources: www.zdnet.com, www.thedigitalcv.com, zety.com</p>
+    </div>
+</div>
+
+</body>
+</html>
